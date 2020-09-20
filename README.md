@@ -1,27 +1,32 @@
-# AngularStorybook
+# Angular Storybook
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.1.2.
+Example on how to use Angular & Storybook together when developing UI Components.  
 
-## Development server
+## Published Link
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Application is published in Netlify.  
+Link: https://angular-storybook.netlify.app/
 
-## Code scaffolding
+## Environment
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Angular 10.1.2  
+Storybook 6.0.21  
+Typescript 4.0.2  
 
-## Build
+## Installation
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+```
+npm install
+```
 
-## Running unit tests
+## Runing Storybook
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+```
+npm run storybook
+```
 
-## Running end-to-end tests
+## Storybook Build
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+```
+npm run build-storybook
+```
